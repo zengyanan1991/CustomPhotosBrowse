@@ -23,7 +23,7 @@
 
 点击代理
 <pre>
-- (void)photosBrowse:(CustomPhotosBrowse *)photosBrowse didSelectItemAtIndex:(NSInteger)inde
+- (void)photosBrowse:(CustomPhotosBrowse *)photosBrowse didSelectItemAtIndex:(NSInteger)index
 </pre>
 
 
