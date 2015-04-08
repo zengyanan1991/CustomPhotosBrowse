@@ -1,6 +1,7 @@
 # CustomPhotosBrowse
 图片轮播，支持本地图片、网络图片
 
+
 初始化
 <pre>
 -(id)initWithFrame:(CGRect)frame;

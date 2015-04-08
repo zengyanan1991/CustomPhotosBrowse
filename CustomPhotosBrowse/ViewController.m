@@ -36,7 +36,6 @@
     [photosBrowse reloadPhotoBrowseWithPhotoArray:imageArray];
     [self.view addSubview:photosBrowse];
     
-    
     //网络图片
     imageArray = [[NSMutableArray alloc] init];
     [imageArray addObject:[CustomPhoto photoWithURL:[NSURL URLWithString:@"https://farm9.staticflickr.com/8757/17073388845_2a59bee250_o_d.jpg"]]];
