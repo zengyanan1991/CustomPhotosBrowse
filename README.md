@@ -1,6 +1,12 @@
 # CustomPhotosBrowse
 图片轮播，支持本地图片、网络图片
 
+##如何使用
+手动导入:
+
+	* 将CustomPhotosBrowse/CustomPhotosBrowsek中所有文件拖入项目中
+	* 导入主头文件 #import "CustomPhotosBrowse.h"
+	
 
 初始化
 <pre>
