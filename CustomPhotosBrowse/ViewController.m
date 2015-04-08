@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CustomPhotosBrowse.h"
+
 
 @interface ViewController ()
 
@@ -31,6 +31,7 @@
     [photosBrowse setPadding:10.0];
     photosBrowse.isInfiniteLoop = YES;
     photosBrowse.autoScroll = YES;
+    photosBrowse.delegate = self;
     photosBrowse.autoScrollTimeInterval = 2.0;
     [photosBrowse reloadPhotoBrowseWithPhotoArray:imageArray];
     [self.view addSubview:photosBrowse];
@@ -50,9 +51,10 @@
 
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark CustomPhotosBrowse delegate
+- (void)photosBrowse:(CustomPhotosBrowse *)photosBrowse didSelectItemAtIndex:(NSInteger)index{
+    NSLog(@"index:%d",index);
 }
+
 
 @end

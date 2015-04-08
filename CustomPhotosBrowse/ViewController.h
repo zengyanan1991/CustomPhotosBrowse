@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomPhotosBrowse.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CustomPhotosBrowseDelegate>
 
 
 @end
