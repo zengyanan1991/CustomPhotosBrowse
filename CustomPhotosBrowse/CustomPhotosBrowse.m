@@ -59,7 +59,7 @@
 
 -(void)setAutoScroll:(BOOL)autoScroll{
     _autoScroll = autoScroll;
-    if (_autoScroll) {
+    if (_autoScroll && autoScrollTimer == nil) {
         [autoScrollTimer invalidate];
         autoScrollTimer = nil;
         [self setupTimer];
@@ -214,6 +214,13 @@
     }
 }
 
+//释放NSTimer
+- (void)willMoveToSuperview:(UIView *)newSuperview{
+    if (!newSuperview) {
+        [autoScrollTimer invalidate];
+        autoScrollTimer = nil;
+    }
+}
 
 - (void)dealloc{
     [autoScrollTimer invalidate];
