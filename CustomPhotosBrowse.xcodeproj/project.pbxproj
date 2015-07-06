@@ -20,6 +20,7 @@
 		00E7EB931AD3C953006F7346 /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E7EB921AD3C953006F7346 /* img1.png */; };
 		00E7EB951AD3C986006F7346 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00E7EB941AD3C986006F7346 /* img2.png */; };
 		A3F560C130240A82A6EA9C1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53112B638BE0EF8A91523DEA /* libPods.a */; };
+		AE7918351B4A17D200E5254D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7918341B4A17D200E5254D /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		00E7EB921AD3C953006F7346 /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		00E7EB941AD3C986006F7346 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 		53112B638BE0EF8A91523DEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7918331B4A17D200E5254D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AE7918341B4A17D200E5254D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AECE4570319F1082713AEB27 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F33F8B79A72AD5DD3E29F3B5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +110,8 @@
 				00DC4A201AC9394E00F663D1 /* AppDelegate.m */,
 				00DC4A221AC9394E00F663D1 /* ViewController.h */,
 				00DC4A231AC9394E00F663D1 /* ViewController.m */,
+				AE7918331B4A17D200E5254D /* SecondViewController.h */,
+				AE7918341B4A17D200E5254D /* SecondViewController.m */,
 				00DC4A251AC9394E00F663D1 /* Main.storyboard */,
 				00DC4A281AC9394E00F663D1 /* Images.xcassets */,
 				00DC4A2A1AC9394E00F663D1 /* LaunchScreen.xib */,
@@ -320,6 +325,7 @@
 				00DC4A241AC9394E00F663D1 /* ViewController.m in Sources */,
 				00DC4A4A1AC9397700F663D1 /* PhotoCollectionViewCell.m in Sources */,
 				00DC4A481AC9397700F663D1 /* CustomPhoto.m in Sources */,
+				AE7918351B4A17D200E5254D /* SecondViewController.m in Sources */,
 				00DC4A491AC9397700F663D1 /* CustomPhotosBrowse.m in Sources */,
 				00DC4A211AC9394E00F663D1 /* AppDelegate.m in Sources */,
 				00DC4A1E1AC9394E00F663D1 /* main.m in Sources */,

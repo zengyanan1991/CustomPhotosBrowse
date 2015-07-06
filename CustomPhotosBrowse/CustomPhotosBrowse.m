@@ -215,5 +215,9 @@
 }
 
 
+- (void)dealloc{
+    [autoScrollTimer invalidate];
+    autoScrollTimer = nil;
+}
 
 @end
